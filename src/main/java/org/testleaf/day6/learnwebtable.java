@@ -9,6 +9,13 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/**
+ * This class demonstrates web table handling using Selenium.
+ * It navigates to the erail.in website, searches for trains between two
+ * stations (MAS and Mdu),
+ * retrieves train names from the results table, and identifies duplicate train
+ * entries.
+ */
 public class learnwebtable {
     public static void main(String[] args) {
         ChromeDriver driver = new ChromeDriver();
