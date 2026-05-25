@@ -1,4 +1,4 @@
-package testcases;
+package TestNG;
 
 import java.time.Duration;
 import java.util.ArrayList;
